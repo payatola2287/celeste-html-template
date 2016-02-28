@@ -1,17 +1,212 @@
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-.search-social-links{
-    display: flex;
+Fonts
+========================================================================== */
+@font-face {
+    font-family: 'League Gothic';
+    src: url(../fonts/LeagueGothic-Regular.otf);
 }
-.search-social-links .input-group .form-control,
-.search-social-links .input-group .input-group-addon{
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+body,
+*{
+    font-family: "Arial Narrow",Arial, sans-serif;
+}
+body{
+    font-size: 12px;
+    color: #999999;
+}
+.site-header{
+    margin-bottom: 15px;
+}
+.site-title{
+    margin: 58px 0 0;
+}
+.site-title a{
+    font-family: "League Gothic";
+}
+.search-connect-links{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.connect-icons{
+    margin-left: 9px;
+}
+.connect-icons > li{
+    margin-right: 20px;
+}
+.connect-icons > li:last-child{
+    margin-right: 0;
+}
+.connect-icons > li > .connect-icon{
+    width: 40px;
+    background: #5fb7c6;
+    color: #fff;
+    border-radius: 0;
+    font-size: 24px;
+    height: 99px;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 0 9px;
+    text-align: center;
+}
+.search-site-map{
+    text-align: right;
+    padding-top: 28px;
+}
+.search-site-map form{
+    display: inline-block;
+}
+.search-site-map .input-group{
+    width: 238px;
+}
+.search-site-map .input-group-addon{
+    font-size: 25px;
+    padding: 0 3px;
+    color: #fff;
+}
+.search-site-map .input-group .form-control,
+.search-site-map .input-group .input-group-addon{
     border: 0;
     border-radius: 0;
     box-shadow: none;
     background: #ebe4de;
 }
+
 .form-control:focus,
 .form-control:active{
     outline: none;
+}
+.top-menu > li > a{
+    border-radius: 0;
+    padding: 0 12px;
+    text-align: right;
+    text-transform: uppercase;
+    color :#aaaaaa;
+    border-right: 1px solid #aaa;
+}
+.top-menu > li:first-child > a{
+    padding: 0 0 0 12px;
+    border-right: 0;
+}
+.top-menu > li > a:hover{
+    color :#5fb7c6;
+    background: 0;
+}
+.top-menu > li{
+    float: right;
+}
+.main-menu{
+    padding: 0;
+}
+.site-menu > li{
+    border-right: 5px solid #eeeeee;
+}
+.site-menu > li:last-child{
+    border-right: 0;
+}
+.site-menu > li > a{
+    font-family: "League Gothic";
+    font-size: 24px;
+    color :#0a8ca3;
+}
+.site-menu > li > a:hover{
+    background: 0;
+    color: #aaa;
+}
+.site-menu > li:first-child > a{
+    padding-left: 0;
+}
+.post .wrapper{
+    background: url(../img/panel-bg.jpg);
+    padding: 25px 19px;
+}
+.post-title{
+    line-height: 12px;
+    margin: 0 0 16px;
+    color: #333333;
+}
+.post-title a{
+    font-size: 15px;
+    color: #333333;
+}
+.post-title a:hover{
+    text-decoration: none;
+}
+.post-meta > li{
+    border-right: 1px solid #a5a4a3;
+}
+.post-meta > li:last-child{
+    border-right: 0;
+}
+.post-meta a{
+    color : #999;
+    font-size: 12px; 
+}
+.post-thumbnail{
+    margin: 19px 0 21px;
+}
+.post-content{
+    margin-bottom: 14px;
+    color :#555;
+}
+.entry-footer{
+    position: relative;
+    padding-right: 30px;
+    text-transform: uppercase;
+    color: #aaacaf;
+}
+.entry-footer:after{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background: url(../img/comment-icon.png) center no-repeat;
+    content: "";
+    line-height: 0;
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
+.side-content h1,
+.side-content h2,
+.side-content h3,
+.side-content h4,
+.side-content h5,
+.side-content h6,
+.side-content .h1,
+.side-content .h2,
+.side-content .h3,
+.side-content .h4,
+.side-content .h5,
+.side-content .h6{
+    color: #0a8ca3;
+    font-weight: 700;
+}
+.widget{
+    margin-bottom: 33px;
+}
+.widget:last-child{
+    margin-bottom: 0;
+}
+.widget-recent-post-list img{
+    border: 5px solid #44afc2;
+}
+.widget-news-letter .form-control,
+.widget-news-letter .input-group-addon{
+    border: 4px solid #44afc2;
+}
+.widget-news-letter .form-control{
+    border-right: 0;
+}
+.widget-news-letter .form-control + .input-group-addon{
+    border-left: 0;
+    background: #44afc2;
+    color:#fff;
+    font-size: 20px;
+    padding: 0 5px 0 12px;
+}
+.widget-news-letter button{
+    border: 0;
+    padding: 0;
+    background: inherit;
 }
