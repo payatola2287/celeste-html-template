@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.search-social-links{
+    display: flex;
+}
+.search-social-links .input-group .form-control,
+.search-social-links .input-group .input-group-addon{
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: #ebe4de;
+}
+.form-control:focus,
+.form-control:active{
+    outline: none;
+}
