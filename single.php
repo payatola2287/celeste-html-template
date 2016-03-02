@@ -93,26 +93,8 @@
         <div class="container">
             <div class="row">
                 <main class="col-md-9 main-content">
-                    <div class="row">
-                        <div class="col-md-1 col-md-pull-11 post-meta text-align">
-                            <date>
-                                <a href="#">
-                                    <span>24</span>
-                                    August
-                                </a>
-                            </date>
-                            <div>
-                                <span>2</span>
-                                Comments
-                            </div>
-                            <div class="author">
-                                Amuki
-                            </div>
-                            <div class="categories">
-                                About us, Eventors, Feugiat, Aeterno
-                            </div>
-                        </div>
-                        <div class="col-md-11 col-md-pull-1 hentry">
+                    <article class="row post-article">
+                        <div class="col-md-10 col-md-push-2 hentry">
                             <h1 class="post-title">Vix sumo exerci, mel aeterno feugiat intellegam cu</h1>
                             <p>
                                 Lorem ipsum mea ea error praesent vituperata. Pri mollis qualisque no, veritus persequeris vituperatoribus at pro, no volumus instructior mel. Dico admodum in duo, prompta constituto constituam mea id, per dicunt convenire cu. Nostro inimicus postulant mea no, ullum disputando sea ad. Cu habeo posse summo pro. Mei eu sonet habemus deseruisse, eius inimicus salutandi eum cu.
@@ -122,22 +104,46 @@
 
                                 Tota persequeris intellegebat id nec, id qui scripta regione, lorem repudiare ex sea. Eu nec autem mediocrem, nec accumsan aliquyam atomorum ne. Id est audire repudiandae. Eu nec causae quaeque eleifend, nemore volutpat accusamus has et. Cu usu homero mollis, erat alienum vim cu, ex quot dissentias sea.  Modus persecuti ut vix. Illud scripta ut sit, eam omnium comprehensam an. In sit stet modus perfecto, postea phaedrum instructior sed te. </p>
                         </div>
-                    </div>
+                        <div class="col-md-2 col-md-pull-10 post-meta text-right">
+                            <date>
+                                <a href="#">
+                                    <span>24</span>
+                                    August
+                                </a>
+                            </date>
+                            <div class="comment">
+                                <span>2</span>
+                                Comments
+                            </div>
+                            <a href="#" class="author" rel="author">
+                                Amuki
+                            </a>
+                            <ul class="categories list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+
+                    </article>
                     <div class="row comments-area">
-                        <p>2 Comments</p>
-                        <ul class="media-list">
-                            <li class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <img class="media-object" src="..." alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Media heading</h4>
-                                    ...
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="col-md-12">
+                            <p class="comment-count">2 Comments</p>
+                            <ul class="media-list comments-list">
+                                <li class="media comment">
+                                    <div class="media-left avatar">
+                                        <a href="#">
+                                            <img class="media-object" src="..." alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading commentor">John Doe</h4>
+                                        <p class="comment">
+                                            Habeo congue aliquam usu at, per at admodum fastidii gloriatur. Aliquid intellegebat cu sea, ad pro etiam vocent. Et his diam luptatum elaboraret, definitiones concludaturque vim id, ad has modus affert soluta. Te nobis volumus dolores vim. In est reque summo nonummy, probo liber audiam cu eum. Ea nisl propriae lobortis duo, vidit aeque sadipscing ex ius.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </main>
                 <aside class="col-md-3 side-content">

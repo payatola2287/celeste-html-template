@@ -140,10 +140,99 @@ Featured Posts
     padding: 25px 19px;
 }
 .featured-posts .post-title{
-    margin: 0 0 16px;
     color: #333333;
 }
+/* ==========================================================================
+Single Posts
+========================================================================== */
+.post-title{
+    margin: 0 0 16px;
+}
+.single .main-content{
+    background: #ebe4de;
+}
+.single .post-title{
+    color: #333333;
+    font-size: 24px;
+}
+.single .hentry{
+    border-left: 1px solid #fff;
+}
+.single .main-content .post-meta{
+    border-right: 1px solid #cec0b4;
+    padding-top: 58px;
+}
+.single .main-content .post-meta date{
+    font-size: 24px;
+    display: block; 
+    line-height: 1;
+    margin-bottom: 41px;
+}
+.single .main-content .post-meta date a,
+.single .main-content .post-meta date span{
+    font-family: "League Gothic";
+    display: block;
+}
+.single .main-content .post-meta .comment,
+.single .main-content .post-meta .author{
+    font-size: 12px;
+    margin-bottom: 39px;
+}
+.single .main-content .post-meta .comment span{
+    font-size: 24px;
+    font-family: "League Gothic";
+    display: block;
+}
+.single .main-content .post-meta .author{
+    color: #555555;
+    display: block;
+}
+.single .main-content .post-meta .author:hover{
+    text-decoration: none;
+}
+.single .main-content .post-meta .author:before{
+    content: "Written by:";
+    display: block;
+    cursor: auto;
+}
+.single .main-content .post-meta .categories:before{
+    content:"Categories:";
+    display: block;
+}
+.single .main-content .post-meta .categories a{
+    color: #555555;
+}
+.single .main-content > .post-article   {
+    display: flex;
+    padding: 23px 0;
+    border-bottom: 1px solid #fff;
+}
+.single .comments-area{
+    border-top: 1px solid #cec0b4;
+    padding: 23px 0;
+}
+.single .comments-area .comment-count{
+    font-size: 24px;
+    color: #0a8ca3;
+    font-family: "League Gothic";
+}
+.single .commentor{
+    color: #1f1e1e;
+    font-size: 18px;
+    font-weight: 700;
+}
+.single .comment{
+    color: #777777;
+}
+.single .comments-area .comment-count:before{
+    content: "\f061";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: inherit;
+}
 .widget .post-title a,
+.blog .post-title a,
 .featured-posts .post-title a{
     font-size: 15px;
     color: #333333;
