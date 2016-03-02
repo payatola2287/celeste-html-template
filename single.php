@@ -28,7 +28,12 @@
                             Celeste
                         </a>
                     </h1>
-
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </section>
                 <section class="col-md-6 search-connect-links">
                     <ul class="list-unstyled nav nav-pills connect-icons">
@@ -71,12 +76,7 @@
     </header>
     <nav class="navbar main-nav" id="site-nav">
         <div class="container">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+
             <div class="collapse navbar-collapse main-menu" id="main-menu">
                 <ul class="nav navbar-nav site-menu">
                     <li class="active"><a href="#">Lorem <span class="sr-only">(current)</span></a></li>
@@ -132,7 +132,7 @@
                                 <li class="media comment">
                                     <div class="media-left avatar">
                                         <a href="#">
-                                            <img class="media-object" src="..." alt="...">
+                                            <img class="media-object" src="http://placehold.it/73x73" alt="...">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -144,6 +144,16 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Leave a comment</h2>
+                        </div>
+                        <form class="comment-form form-horizontal">
+                            <div class="form-group">
+                                
+                            </div>
+                        </form>
                     </div>
                 </main>
                 <aside class="col-md-3 side-content">
